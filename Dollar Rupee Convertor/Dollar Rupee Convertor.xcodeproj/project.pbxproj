@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		588867EE1C1CCCD90079FD4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588867ED1C1CCCD90079FD4E /* AppDelegate.swift */; };
+		588867F01C1CCCD90079FD4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588867EF1C1CCCD90079FD4E /* ViewController.swift */; };
+		588867F31C1CCCD90079FD4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588867F11C1CCCD90079FD4E /* Main.storyboard */; };
+		588867F51C1CCCD90079FD4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588867F41C1CCCD90079FD4E /* Assets.xcassets */; };
+		588867F81C1CCCD90079FD4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588867F61C1CCCD90079FD4E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		588867EA1C1CCCD90079FD4E /* Dollar Rupee Convertor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dollar Rupee Convertor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		588867ED1C1CCCD90079FD4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		588867EF1C1CCCD90079FD4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		588867F21C1CCCD90079FD4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		588867F41C1CCCD90079FD4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		588867F71C1CCCD90079FD4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		588867F91C1CCCD90079FD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		588867E71C1CCCD90079FD4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		588867E11C1CCCD90079FD4E = {
+			isa = PBXGroup;
+			children = (
+				588867EC1C1CCCD90079FD4E /* Dollar Rupee Convertor */,
+				588867EB1C1CCCD90079FD4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		588867EB1C1CCCD90079FD4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				588867EA1C1CCCD90079FD4E /* Dollar Rupee Convertor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		588867EC1C1CCCD90079FD4E /* Dollar Rupee Convertor */ = {
+			isa = PBXGroup;
+			children = (
+				588867ED1C1CCCD90079FD4E /* AppDelegate.swift */,
+				588867EF1C1CCCD90079FD4E /* ViewController.swift */,
+				588867F11C1CCCD90079FD4E /* Main.storyboard */,
+				588867F41C1CCCD90079FD4E /* Assets.xcassets */,
+				588867F61C1CCCD90079FD4E /* LaunchScreen.storyboard */,
+				588867F91C1CCCD90079FD4E /* Info.plist */,
+			);
+			path = "Dollar Rupee Convertor";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		588867E91C1CCCD90079FD4E /* Dollar Rupee Convertor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 588867FC1C1CCCD90079FD4E /* Build configuration list for PBXNativeTarget "Dollar Rupee Convertor" */;
+			buildPhases = (
+				588867E61C1CCCD90079FD4E /* Sources */,
+				588867E71C1CCCD90079FD4E /* Frameworks */,
+				588867E81C1CCCD90079FD4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dollar Rupee Convertor";
+			productName = "Dollar Rupee Convertor";
+			productReference = 588867EA1C1CCCD90079FD4E /* Dollar Rupee Convertor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		588867E21C1CCCD90079FD4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Antrromet;
+				TargetAttributes = {
+					588867E91C1CCCD90079FD4E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 47L53VSCFR;
+					};
+				};
+			};
+			buildConfigurationList = 588867E51C1CCCD90079FD4E /* Build configuration list for PBXProject "Dollar Rupee Convertor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 588867E11C1CCCD90079FD4E;
+			productRefGroup = 588867EB1C1CCCD90079FD4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				588867E91C1CCCD90079FD4E /* Dollar Rupee Convertor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		588867E81C1CCCD90079FD4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588867F81C1CCCD90079FD4E /* LaunchScreen.storyboard in Resources */,
+				588867F51C1CCCD90079FD4E /* Assets.xcassets in Resources */,
+				588867F31C1CCCD90079FD4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		588867E61C1CCCD90079FD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588867F01C1CCCD90079FD4E /* ViewController.swift in Sources */,
+				588867EE1C1CCCD90079FD4E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		588867F11C1CCCD90079FD4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				588867F21C1CCCD90079FD4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		588867F61C1CCCD90079FD4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				588867F71C1CCCD90079FD4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		588867FA1C1CCCD90079FD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		588867FB1C1CCCD90079FD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		588867FD1C1CCCD90079FD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dollar Rupee Convertor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antrromet.Dollar-Rupee-Convertor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		588867FE1C1CCCD90079FD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dollar Rupee Convertor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antrromet.Dollar-Rupee-Convertor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		588867E51C1CCCD90079FD4E /* Build configuration list for PBXProject "Dollar Rupee Convertor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588867FA1C1CCCD90079FD4E /* Debug */,
+				588867FB1C1CCCD90079FD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		588867FC1C1CCCD90079FD4E /* Build configuration list for PBXNativeTarget "Dollar Rupee Convertor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588867FD1C1CCCD90079FD4E /* Debug */,
+				588867FE1C1CCCD90079FD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 588867E21C1CCCD90079FD4E /* Project object */;
+}
